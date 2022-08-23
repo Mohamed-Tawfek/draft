@@ -1,0 +1,40 @@
+name: fatora
+description: A new Flutter project.
+version: 1.0.0+1
+environment:
+  sdk: ">=2.17.3 <3.0.0"
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.2
+  sqflite: ^2.0.3+1
+  flutter_bloc: ^8.0.1
+  bloc: ^8.1.0
+  flutter_native_splash: ^2.2.7
+  modal_bottom_sheet: ^2.1.0
+  fluttertoast: ^8.0.9
+dev_dependencies:
+  flutter_launcher_icons: "^0.10.0"
+
+flutter_icons:
+    android: "launcher_icon"
+    ios: true
+    image_path: "assets/draft.png"
+    min_sdk_android: 21 # android min sdk min:16, default 21
+flutter_test:
+    sdk: flutter
+flutter_lints: ^2.0.0
+flutter:
+
+  uses-material-design: true
+
+  assets:
+    - assets/draft.png
+
+flutter_native_splash:
+ color: "#15202B"
+ image_dark: assets/draft.png
+ image: assets/draft.png
+ color_dark: "#15202B"
+ android: true
+ ios: true
